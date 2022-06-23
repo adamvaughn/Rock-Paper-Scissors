@@ -1,7 +1,23 @@
-body{
+.text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    border: none;
+}
+
+img {
+    max-height: 20vh;
+    max-width: auto;
 }
